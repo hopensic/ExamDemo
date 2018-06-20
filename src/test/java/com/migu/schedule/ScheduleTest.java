@@ -120,9 +120,8 @@ public class ScheduleTest
         Assert.assertEquals(ReturnCodeKeys.E011, actual);
     }
     
-    @Test
-    public void testDeleteTask1()
-    {
+  @Test
+  public void testDeleteTask1() {
         int actual = schedule.init();
         actual = schedule.registerNode(1);
         actual = schedule.addTask(1, 10);
